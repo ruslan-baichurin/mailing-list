@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-family: 'Quattrocento', serif;
+    height: 100%;
+    background-image: url('/static/mojave_dynamic_8.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 100;
+}
+
+h1{
+    color: rgb(66, 69, 86);
+    margin: 0;
+    font-size: 200px;
+    line-height: 200px;
+    text-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.lead{
+    color: rgb(60, 79, 27);
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.form-control{
+    line-height: 1.5;
+    border: none;
+    border-bottom: 3px solid #ebebeb;
+    width: 700px;
+    font-size: 2em;
+    color: white;
+    padding: 5px 10px;
+    background: transparent;
+}
+
+.btn-primary{
+    line-height: 2.0;
+    border: 3px solid white;
+    font-size: 1.5em;
+    color: rgb(66, 69, 86);
+    padding: 5px 30px;
+    background: rgba(255, 255, 255, 1.0);
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.form-control::-webkit-input-placeholder {color: white;}
+.form-control::-moz-placeholder { color: white;}
